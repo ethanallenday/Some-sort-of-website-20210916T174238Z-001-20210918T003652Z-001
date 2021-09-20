@@ -1,0 +1,78 @@
+.skewed-header {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    position: relative;
+    height: 400px;
+}
+
+.skewed-header > .headerbg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    box-shadow: -1px -2px 21px 16px #000000;
+}
+
+.skewed-header > .skewed-header-wrapper {
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .heading-wrapper {
+    background-color: goldenrod;
+    color: #06080f;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    width: 400px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* skewed header links wrapper */
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link {
+    width: 175px;
+    text-align: center;
+}
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link a { 
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 1.1em;
+    text-shadow: -3px 4px 3px #000000;
+    transition: 0.3s;
+}
+
+/* transitions */
+
+.skewed-header > .skewed-header-wrapper > .skewed-header-content > .links-wrapper > .nav-link a:hover { 
+    color: goldenrod;
+    letter-spacing: 1px;;
+}

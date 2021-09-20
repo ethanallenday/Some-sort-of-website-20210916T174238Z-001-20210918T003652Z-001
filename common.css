@@ -1,0 +1,12 @@
+body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* font */
+@font-face {
+    font-family: zeldaFont;
+    src: url(fonts/HyliaSerifBeta-Regular.otf);
+}

@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    background-color: #06060f;
+    height: 100%;
+}
+
+body a {
+    color: blue;
+    text-decoration:none;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3em;
+}
+
+.puzzle-wrapper {
+    background-color: #06060f;
+    color: red;
+    font-size: 10em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.puzzle-information {
+    width: 100%;
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+
+.puzzle-clues {
+    width: 100%;
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.terrabyte {
+    color: green;
+}
+
+.Terrabyte {
+    color: green;
+}
+
+.puzzle {
+    font-size: 10rem;
+}
+
+.puzzle {
+    font-weight: 900;
+}
+
+.puzzle {
+    font-family: 'Nunito', sans-serif;
+}

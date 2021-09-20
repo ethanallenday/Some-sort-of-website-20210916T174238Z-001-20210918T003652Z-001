@@ -1,0 +1,124 @@
+body {
+    background-color: #121212;
+}
+
+.main-section {
+    width: 100%;
+    position: relative;
+}
+
+.main-subsection {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-section > .main-subsection > .swoosh-l img {
+    width: 100%;
+    max-width: 880px;
+    height: auto;
+    margin-top: 128px;
+    filter: brightness(100%);
+    border-radius: 25px;
+    transform: scaleX(-1);
+}
+
+.main-section > .main-subsection > .swoosh-r img {
+    width: 100%;
+    max-width: 880px;
+    height: auto;
+    float: right;
+    margin-top: 128px;
+    filter: brightness(100%);
+    border-radius: 25px;
+    transform: scaleX(-1);
+}
+
+.main-section > .main-subsection > .swoosh-r {
+    float: right;
+    width: 100%;
+}
+
+.main-section > .main-subsection > .swoosh-l {
+    float: left;
+    width: 100%;
+}
+
+.main-section > .main-subsection > .paragraphs {
+    width: 100%;
+    float: right;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 100px;
+}
+
+.main-section > .main-subsection > .paragraphs > .paragraph-header {
+    width: 100%;
+    margin-right: 300px;
+}
+
+.main-section > .main-subsection > .paragraphs > .paragraph-header p span {
+    width: 100%;
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-size: 3.5em;
+    font-weight: 900;
+}
+
+.main-section > .main-subsection > .paragraphs > .paragraph-header p i {
+    color: whitesmoke;
+    margin-left: 100px;
+    font-size: 6em;
+}
+
+.main-section > .main-subsection > .paragraphs > .paragraph-1 {
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section > .main-subsection > .paragraphs > .paragraph-1 h1 {
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2.5em;
+}
+
+.main-section > .main-subsection > .paragraphs > .paragraph-1 p {
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-size: 2em;
+}
+
+.main-section > .main-subsection > .paragraphs > .paragraph-1 ol {
+    list-style-type: upper-roman;
+}
+
+.main-section > .main-subsection > .paragraphs > .paragraph-1 > .questions li {
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+}
+
+.main-section > .main-subsection > .logos {
+    width: 100%;
+    height: 300px;
+    max-width: 750px;
+    margin-left: 100px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.main-section > .main-subsection > .logos img {
+    width: 100%;
+    height: auto;
+    margin-top: 120px;
+    max-width: 750px;
+    box-shadow: 2px 0px 23px 11px #000000;
+    border-radius: 24px;
+    filter: brightness(80%);
+}

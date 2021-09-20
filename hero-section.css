@@ -1,0 +1,60 @@
+.hero-section {
+    height: 750px;
+    width: 100%;
+    min-width: 1280px;
+    background-image: url("images/background/cool\ aesthetic\ background.png");
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.hero-section > .header-1 {
+    padding: 1px 20px;
+    width: 290px;
+    height: 100%;
+    max-height: 170px;
+    margin-left: 100px;
+    margin-top: 80px;
+    background-color: #06080E;
+    color: goldenrod;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 5px 4px 2px #000000;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    transition: 0.35s;
+}
+
+.hero-section > .header-2 {
+    padding: 1px 20px;
+    width: 290px;
+    height: 100%;
+    max-height: 75px;
+    margin-left: 200px;
+    background-color: #06080E;
+    color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+    font-size: 0.75em;
+    text-align: center;
+    text-shadow: 5px 4px 2px #000000;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    transition: 0.35s;
+}
+
+.hero-section > .header-1:hover {
+    box-shadow: 5px 5px 15px 8px #000000;
+}
+
+.hero-section > .header-2:hover {
+    box-shadow: 5px 5px 15px 8px #000000;
+}

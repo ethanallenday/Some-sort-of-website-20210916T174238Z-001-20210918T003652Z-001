@@ -1,0 +1,26 @@
+.btn {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 1000;
+    margin-bottom: 60px;
+    background-color: #cea135;
+    color: #11122b;
+    font-size: 1.25em;
+    padding: 10px 25px;
+    border: 1px solid #cea135;
+    border-radius: 2px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    box-shadow: 5px 5px 15px 9px #000000;
+}
+
+.btn:active {
+    filter: brightness(50%);
+}
+
+.centered-btn-wrapper {
+    display: flex;
+    justify-content: center;
+}

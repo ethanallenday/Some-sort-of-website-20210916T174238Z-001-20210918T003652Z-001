@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    background-color: #06080f;
+    font-family: 'Nunito', sans-serif;
+}
+
+.main-section {
+    background-color: #06080f;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
